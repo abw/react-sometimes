@@ -21,15 +21,15 @@ Install `react-sometimes` using your favourite package manager.
 
 ### npm
 
-    npm install @abw/react-sometimes
+    npm install react-sometimes
 
 ### pnpm
 
-    pnpm add @abw/react-sometimes
+    pnpm add react-sometimes
 
 ### yarn
 
-    yarn add @abw/react-sometimes
+    yarn add react-sometimes
 
 ## Usage
 
