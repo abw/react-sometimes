@@ -1,6 +1,6 @@
 {
   "name": "react-sometimes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to conditionally render content based on a date/time range.",
   "type": "module",
   "main": "./dist/react-sometimes.cjs",
