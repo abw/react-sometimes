@@ -1,1 +1,1 @@
-export { default as Sometimes } from "./Sometimes";
+export { default } from "./Sometimes";

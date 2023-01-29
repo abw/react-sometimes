@@ -1,6 +1,6 @@
 import React from 'react'
 import { timestamp } from '@abw/badger-timestamp'
-import { isDefined } from '@abw/badger-utils'
+import { hasValue } from '@abw/badger-utils'
 
 type Props = {
   from?: string,
@@ -18,11 +18,12 @@ export const Sometimes = ({
   children
 }: Props) => {
   const now = timestamp();
+  const today = now.date();
 
-  if (isDefined(from) && now.before(from)) {
+  if (hasValue(from) && now.before(from?.replace(/^\*/, today))) {
     return outside || null;
   }
-  if (isDefined(to) && now.after(to)) {
+  if (hasValue(to) && now.after(to?.replace(/^\*/, today))) {
     return outside || null;
   }
   return inside || children;
