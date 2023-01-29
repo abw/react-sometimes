@@ -1,0 +1,57 @@
+{
+  "name": "react-sometimes",
+  "version": "1.0.4",
+  "description": "React component to conditionally render content based on a date/time range.",
+  "type": "module",
+  "main": "./dist/react-sometimes.cjs",
+  "module": "./dist/react-sometimes.mjs",
+  "types": "./dist/react-sometimes.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/badger-sometimes.cjs",
+      "import": "./dist/badger-sometimes.mjs"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch"
+  },
+  "dependencies": {
+    "@abw/badger-timestamp": "^1.0.3",
+    "@abw/badger-utils": "^1.0.16"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.5.0",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": "^16 || ^17 || ^18",
+    "react-dom": "^16 || ^17 || ^18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abw/react-sometimes"
+  },
+  "author": "Andy Wardley",
+  "license": "MIT",
+  "keywords": [
+    "react-sometimes",
+    "react",
+    "timestamp",
+    "date",
+    "time",
+    "range"
+  ]
+}
