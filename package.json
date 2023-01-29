@@ -37,10 +37,10 @@
     "typescript": "^4.8.4"
   },
   "peerDependencies": {
-    "react": "^16 || ^17 || ^18",
-    "react-dom": "^16 || ^17 || ^18",
     "@abw/badger-timestamp": "^1.0.3",
-    "@abw/badger-utils": "^1.0.16"
+    "@abw/badger-utils": "^1.0.16",
+    "react": "^16 || ^17 || ^18",
+    "react-dom": "^16 || ^17 || ^18"
   },
   "repository": {
     "type": "git",

@@ -7,7 +7,7 @@
   <a href="https://packagephobia.now.sh/result?p=react-sometimes">
     <img src="https://packagephobia.now.sh/badge?p=react-sometimes" alt="install size" >
   </a>
-  <a href="https://github.com/abw/react-sometimes/blob/master/LICENSE.md">
+  <a href="https://github.com/abw/react-sometimes/blob/master/LICENSE">
     <img src="https://img.shields.io/npm/l/react-sometimes.svg" alt="license">
   </a>
 </p>
